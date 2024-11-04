@@ -1,0 +1,12 @@
+/.vscode
+/Config
+*/cache
+.cache
+*/Private
+private.*
+__pycache__
+.DS_Store
+Log
+private.*
+*.output
+output.xaml
