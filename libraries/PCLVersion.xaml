@@ -1,6 +1,6 @@
 <local:MyCard Margin="0,0,0,15" Title="PCL版本" CanSwap="True">
       <StackPanel Margin="30,40,30,20">
-        <TextBlock Text="你的PCL版本是 ${client.version} ${@IF|client.isopensource|(开源版本)}" />
+        <TextBlock Text="你的PCL版本是 ${client.version} ${@IF|${client.isopensource}|(开源版本)}" />
         <TextBlock Text="你的 PCL 版本号是 ${client.versionid}" />
       </StackPanel>
 </local:MyCard>
