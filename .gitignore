@@ -2,6 +2,7 @@
 /Config
 */cache
 .cache
+cache/*
 */Private
 private.*
 __pycache__
